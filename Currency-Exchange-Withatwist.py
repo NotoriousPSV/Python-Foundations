@@ -17,3 +17,22 @@ print("\nAt times, certain goverment officials may come towards you. Don't be sc
 print("\nYour goal is to keep a profit, if you have too much debt, you could be thrown in jail for tax evasion. ")
 print("\nThat concludes the tutorial! If you have any questions, go to the menu and find the FAQs area to see if your queries can be answered. ")
 
+#Establish Converting Mechanism
+
+def convert_HL(a, b):
+    return a * b 
+def convert_LH(a, b):
+    return a/b
+
+
+#Menu UI
+while True:
+    menu_ques = input("What would you like to do? \nCurrency Trade Yourself (Trade Yourself)?\nHelp Customers (Help Customers)?\nQuestions (FAQs)?")
+    menu_ques = menu_ques.lower()
+    if menu_ques == "trade yourself":
+        print("H")
+    elif menu_ques == "help customers":
+        print("F")
+
+
+
